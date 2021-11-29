@@ -9,7 +9,7 @@ function SignIn(){
     }
     return (
         <div>
-            <button onClick={signinWithGoogle} >Signin with Google</button>
+            <button className="btn btn-primary" onClick={signinWithGoogle} >Signin with Google</button>
         </div>
     )
 } 
