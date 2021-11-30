@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import {db} from '../firebase'
 import SignOut from './SignOut'
+import SendMessage from './SendMessage';
 
 function Chat(){
     const [message, setMessage]=useState([]);
@@ -19,6 +20,7 @@ function Chat(){
                     <p>{text}</p>
                 </div>
          ))}
+         <SendMessage/>
         </div>
     )
 } 
