@@ -2,7 +2,21 @@ img {
   border-radius: 50%;
   height: 45px;
   margin-top: -20px;
-  border: 2px solid black;
+}
+
+.grandParentContaniner{
+  display:table; height:100%; margin: 0 auto;
+} 
+
+.parentContainer{
+  display:table-cell; vertical-align:middle;
+}	
+
+.headerSty{
+  position: fixed;
+  top:0; 
+  width: 100%;
+
 }
 
 p {
@@ -25,9 +39,9 @@ p {
 }
 
 .sent {
-  background-color: #395dff;
+  background-color: #075E54;
   color: white;
-  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
   flex-direction: row-reverse;
   padding: 20px 20px 0 10px;
   text-align: end;
@@ -35,9 +49,8 @@ p {
 }
 
 .received {
-  border: 1px solid lightgray;
-  background-color: #FAFAFA;
-  border-top-left-radius: 1000px;
+  background-color: #ECE5DD;
+  border-bottom-left-radius: 1000px;
   float: left;
 }
 
@@ -50,7 +63,7 @@ p {
   border-top: 1px solid lightgray;
   margin-left: -5px;
   padding: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 30px;  
   background-color: #fafafa;
 }
 
